@@ -6,4 +6,19 @@
 
 ## Comments on the Project
 
-    Project built as a React Native Challenge. I was supposed to built an app that will be able to read QR Codes, store the data on then and then be able to navigate through then.
+Project built as a React Native Challenge. I was supposed to built an app that will be able to read QR Codes, store the data on then and then be able to navigate through then.
+
+## How to deploy
+
+ - Clone the Project to your machinr.
+ - Run `npm install` | `yarn install` to install all dependencies.
+ - Run `npm start`   | `yarn start` to run the app.
+
+## Libraries Used
+
+- react-navigation/bottom-tabs
+- react-navigation/native-stack
+- reduxjs
+- react-native-vector-icons
+- expo-barcode-scanner
+- react-redux
