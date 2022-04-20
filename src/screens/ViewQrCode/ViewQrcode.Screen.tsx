@@ -14,7 +14,6 @@ const ViewQrCodeScrren = () => {
     );
   };
   return (
-    <>
       <View style={styles.container}>
         {qrCodeData.length ? (
           <FlatList
@@ -34,7 +33,6 @@ const ViewQrCodeScrren = () => {
           </>
         )}
       </View>
-    </>
   );
 };
 
