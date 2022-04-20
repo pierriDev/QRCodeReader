@@ -6,4 +6,4 @@
 
 ## Comments on the Project
 
-    Project built as a React Native Challenge. I was supposed to built an app that will be able to read QR Codes, store the data on then and then be able to navigate through then.
+Project built as a React Native Challenge. I was supposed to built an app that will be able to read QR Codes, store the data on then and then be able to navigate through then.
