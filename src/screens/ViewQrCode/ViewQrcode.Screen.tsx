@@ -1,6 +1,5 @@
 import React from 'react';
 import { FlatList, Text, View } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useViewQrCode } from './useViewQrCode';
 import styles from './ViewQrCode.styles';
 import type { itemProps } from './ViewQrCode.types';
@@ -15,7 +14,6 @@ const ViewQrCodeScrren = () => {
     );
   };
   return (
-    // <SafeAreaProvider style={styles.container}>
       <View style={styles.container}>
         {qrCodeData.length ? (
           <FlatList
@@ -35,7 +33,6 @@ const ViewQrCodeScrren = () => {
           </>
         )}
       </View>
-    // </SafeAreaProvider>
   );
 };
 
