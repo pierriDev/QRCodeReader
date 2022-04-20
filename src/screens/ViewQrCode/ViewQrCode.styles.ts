@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    paddingBottom: 100,
   },
   noDataTitle: {
     fontSize: 24,
@@ -19,6 +20,7 @@ const styles = StyleSheet.create({
     paddingVertical: 24,
     width: '100%',
     paddingHorizontal: 12,
+    flex: 1,
   },
   dataBox: {
     padding: 24,
